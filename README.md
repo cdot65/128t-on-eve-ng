@@ -22,7 +22,7 @@ mv 128T-5.1.4-1.el7.OTP.v1.x86_64.iso cdrom.iso
 
 1. add a new node to an empty lab, select Juniper 128T
 2. add a network that will allow your device to talk on your LAN (cloud1 in my case maps to my second NIC on my EVE server)
-3. before starting the router, set the flags to -machine type=pc-1.0,accel=kvm -cpu host -vga std -usbdevice tablet -boot order=cd and make sure that vnc is selected for console under router options
+3. before starting the router, set the flags to `-machine type=pc-1.0,accel=kvm -cpu host -vga std -usbdevice tablet -boot order=cd` and make sure that vnc is selected for console under router options
 4. start router, click on device to open VNC console, select Install 128T Routing Software VGA Console (fourth option from menu)
 5. install will take up to an hour, be patient
 6. when prompted to shutdown, select yes
