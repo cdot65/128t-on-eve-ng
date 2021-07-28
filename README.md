@@ -11,7 +11,7 @@
 
 ```sh
 mkdir /opt/unetlab/addons/qemu/128T-5.1.4
-scp 128license.pem root@eve:/opt/unetlab/addons/qemu/128T-5.1.3/128license.pem
+scp 128license.pem root@eve:/opt/unetlab/addons/qemu/128T-5.1.4/128license.pem
 cd /opt/unetlab/addons/qemu/128T-5.1.4
 curl -O --cert 128license.pem https://yum.128technology.com/isos/128T-5.1.4-1.el7.OTP.v1.x86_64.iso
 mv 128T-5.1.4-1.el7.OTP.v1.x86_64.iso cdrom.iso
