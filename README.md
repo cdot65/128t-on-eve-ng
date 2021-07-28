@@ -4,23 +4,23 @@
 
 create the directory on EVE server
 
-- [ ] - `mkdir /opt/unetlab/addons/qemu/128T-5.1.3`
+- [ ] `mkdir /opt/unetlab/addons/qemu/128T-5.1.3`
 
 SCP your license from your computer to EVE-NG
 
-- [ ] - `scp 128license.pem root@eve:/opt/unetlab/addons/qemu/128T-5.1.3/license.pem `
+- [ ] `scp 128license.pem root@eve:/opt/unetlab/addons/qemu/128T-5.1.3/license.pem `
 
 change into 128T directory
 
-- [ ] - `cd /opt/unetlab/addons/qemu/128T-5.1.3`
+- [ ] `cd /opt/unetlab/addons/qemu/128T-5.1.3`
 
 download 128T installer ISO file
 
-- [ ] - `curl -O --cert lic.pem https://yum.128technology.com/isos/128T-5.1.4-1.el7.OTP.v1.x86_64.iso `
+- [ ] `curl -O --cert lic.pem https://yum.128technology.com/isos/128T-5.1.4-1.el7.OTP.v1.x86_64.iso `
 
 rename install ISO to the filename EVE is expecting
 
-- [ ] - `mv 128T-5.1.4-1.el7.OTP.v1.x86_64.iso cdrom.iso `
+- [ ] `mv 128T-5.1.4-1.el7.OTP.v1.x86_64.iso cdrom.iso `
 
 create an 8 GB hard disk for the new template
 
