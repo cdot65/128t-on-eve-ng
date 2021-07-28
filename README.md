@@ -10,9 +10,9 @@
 6. create an 8 GB hard disk for the new template
 
 ```sh
-mkdir /opt/unetlab/addons/qemu/128T-5.1.3
+mkdir /opt/unetlab/addons/qemu/128T-5.1.4
 scp 128license.pem root@eve:/opt/unetlab/addons/qemu/128T-5.1.3/128license.pem
-cd /opt/unetlab/addons/qemu/128T-5.1.3
+cd /opt/unetlab/addons/qemu/128T-5.1.4
 curl -O --cert 128license.pem https://yum.128technology.com/isos/128T-5.1.4-1.el7.OTP.v1.x86_64.iso
 mv 128T-5.1.4-1.el7.OTP.v1.x86_64.iso cdrom.iso
 /opt/qemu/bin/qemu-img create -f qcow2 virtioa.qcow2 8G
@@ -37,7 +37,7 @@ remove the installer ISO file
 ```sh
 cd /opt/unetlab/tmp/0/03108a19-9aec-4428-a60c-272be78cbcfa/1
 /opt/qemu/bin/qemu-img commit virtioa.qcow2
-rm /opt/unetlab/addons/qemu/128T-5.1.3/cdrom.iso
+rm /opt/unetlab/addons/qemu/128T-5.1.4/cdrom.iso
 ```
 
 ## **final step, promise**
